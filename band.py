@@ -15,4 +15,5 @@ print(output)
 
 with open('theband.txt', 'w') as file:
     file.write(output)
-    
+
+print('haha')
