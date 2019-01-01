@@ -6,8 +6,8 @@
 2. 이 문제를 해결하기 위해 spell 홈페이지에 나온 것처럼 그냥 pip install spell 명령을 사용하면 spell이 제대로 설치되지 않음  
 3. 따라서 아래와 같은 순서로 설치를 하되 두 번째 명령어에서 꼭 pip3를 사용해야 함  
 
-'''
+~~~~
   sudo easy_install pip  
   pip3 install spell  
   spell login  
-'''
+~~~~
