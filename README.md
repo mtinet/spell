@@ -8,7 +8,9 @@
 
 ~~~~
   sudo easy_install pip  
+  
   pip3 install spell  
+  
   spell login  
 ~~~~
 
@@ -40,12 +42,17 @@
 ~~~~
   git clone github저장소주소     //github 저장소 주소에 해당하는 곳에 들어 있는 모든 폴더와 파일들을 내 컴퓨터에 다운로드 함, 자동으로 원격저장소를 origin이라는 이름으로 추가함   
     ex) git clone https://github.com/mtinet/spell.git    //해당 주소에 있는 모든 파일을 내 컴퓨터로 다운로드 함  
+    
   git remote
+  
   git remote add 새로운이름 github저장소주소   //이 명령을 수행하면 앞으로 새로운 이름으로 github저장소주소에 연결할 수 있음  
     ex) git remote add spell https://github.com/mtinet/spell.git     //이 작업 후에는 spell이라는 이름으로 사용 가능해짐  
+    
   git remote -v  //이 명령을 통해서 현재 원격저장소의 새 이름과 연결되어 있는 주소를 확인할 수 있음  
+  
   git fetch     //로컬에는 없지만 원격저장소에 있는 데이터를 모두 가져옴
     ex) git fetch origin     //clone후에 원격저장소에서 수정된 것을 모두 가져옴, 하지만 자동으로 merge를 하지 않음  
+    
   git pull     //remote를 한 번 설정하고 나면 다음부터는 이 명령어로 github에서 변경된 내용을 내 컴퓨터로 가져온 다음 자동으로 로컬과 merge함    
 ~~~~
 
@@ -53,7 +60,9 @@
 내 컴퓨터에서 git 사용하는 방법과 동일하게 add(staging), commit작업을 하고나서 push를 해줘야 원격저장소로 정상적으로 올라감, 원격저장소는 처음에 clone했던 저장소를 말함  
 ~~~~
   git status     //변경된 파일이나 폴더가 있는지 확인함  
+  
   git add *.*    //만들어 낸 파일을 git 시스템의 stage에 추가함, git add . 명령을 이용하면 한 번에 추가 가능  
+  
   git commit -m '작업내용 설명'      //작업내용 설명과 함께 stage에 추가된 변경된 작업내용을 commit함, commit은 git시스템의 로컬저장소(*원격저장소 아님)에 변경내용을 최종적으로 업데이트 하는 것을 말함  
 ~~~~
 
