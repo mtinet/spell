@@ -31,7 +31,7 @@
   git remote
   git remote add 새로운이름 github저장소주소   //이 명령을 수행하면 앞으로 새로운 이름으로 github저장소주소에 연결할 수 있음  
     ex) git remote add spell https://github.com/mtinet/spell.git  
-  git remote -v  //이 명령으 통해서 현재 연결되어 있는 원격저장소의 새 이름과 주소를 확인할 수 있음  
+  git remote -v  //이 명령을 통해서 현재 연결되어 있는 원격저장소의 새 이름과 주소를 확인할 수 있음  
   git push       //github에 변경된 폴더와 파일들을 업로드 함, 이 작업을 하기 전에는 반드시 원격연결(remote)을 해줘야 함    
   git clone github저장소주소     //github 저장소 주소에 해당하는 곳에 들어 있는 파일들을 내 컴퓨터에 다운로드 함  
     ex) git clone https://github.com/mtinet/spell.git  
