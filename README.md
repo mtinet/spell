@@ -35,7 +35,8 @@
   git push       //github에 변경된 폴더와 파일들을 업로드 함, 이 작업을 하기 전에는 반드시 원격연결(remote)을 해줘야 함    
   git clone github저장소주소     //github 저장소 주소에 해당하는 곳에 들어 있는 파일들을 내 컴퓨터에 다운로드 함  
     ex) git clone https://github.com/mtinet/spell.git    //해당 주소에 있는 모든 파일을 내 컴퓨터로 다운로드 함  
-~~~~
+  git pull     //remote를 한 번 설정하고 나면 다음부터는 이 명령어로 github에서 변경된 내용을 내 컴퓨터로 가져올 수 있음  
+  ~~~~
 6. 일반적으로 내 컴퓨터에 먼저 git을 만들고 원격저장소(github)로 연결하는 것보다, 원격저장소(github)에 먼저 저장소를 만들고 저장소의 주소를 clone하여 작업하고 다시 push하는 것이 remote작업을 해주지 않아도 되서 작업 상 편리함  
 
 
