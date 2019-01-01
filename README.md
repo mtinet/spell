@@ -53,7 +53,7 @@
   git fetch     //로컬에는 없지만 원격저장소에 있는 데이터를 모두 가져옴
     ex) git fetch origin     //clone후에 원격저장소에서 수정된 것을 모두 가져옴, 하지만 자동으로 merge를 하지 않음  
   
-  git merge     //fetch명령어로 원격저장소에 가져온 데이터를 merge함, merge 할 때 파일을 작성하는 화면인 vim으로 넘어가는데 이때 저장하지 않고 나가려면 esc를 누른다음 ':q' 를 누르고 엔터를 누르며 됨  
+  git merge     //fetch명령어로 원격저장소에 가져온 데이터를 merge함, merge 할 때 merge내용을 기록하기 위해 파일을 작성하는 화면인 vim으로 넘어가는데 이때 저장하지 않고 나가려면 esc를 누른다음 ':q' 를 누르고 엔터를 누르며 됨  
     
   git pull     //remote를 한 번 설정하고 나면 다음부터는 이 명령어로 github에서 변경된 내용을 내 컴퓨터로 가져온 다음 자동으로 로컬과 merge함    
 ~~~~
